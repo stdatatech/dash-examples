@@ -1,1 +1,10 @@
-{"dsType":"sqlite","dsName":"sqlite","name":"accident_number","query":"select count(*) from accident","type":"number","projection":"[{\"name\":\"count(*)\",\"type\":\"number\",\"format\":\"\"}]","setting":"{\"valueCol\":\"count(*)\",\"cellFormat\":\"0,0\",\"template\":\"simple\",\"config\":{\"align\":\"center\",\"colors\":{\"enable\":true,\"series\":[{\"name\":\"数值颜色\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true},{\"name\":\"标题颜色\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"title\":\"Accidents for year 2018\",\"valueFontSize\":\"48\"}}","parameters":"[]"}
+{
+    "dsType": "sqlite",
+    "dsName": "demo",
+    "name": "accident_number",
+    "query": "select count(*) from accident",
+    "type": "number",
+    "projection": "[{\"name\":\"count(*)\",\"type\":\"number\",\"format\":\"\"}]",
+    "setting": "{\"valueCol\":\"count(*)\",\"cellFormat\":\"0,0\",\"template\":\"simple\",\"config\":{\"align\":\"center\",\"colors\":{\"enable\":true,\"series\":[{\"name\":\"数值颜色\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true},{\"name\":\"标题颜色\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"title\":\"Accidents for year 2018\",\"valueFontSize\":\"48\"}}",
+    "parameters": "[]"
+}
