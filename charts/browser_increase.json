@@ -6,5 +6,15 @@
     "type": "delta",
     "projection": "[{\"name\":\"value1\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"value2\",\"type\":\"number\",\"format\":\"\"}]",
     "setting": "{\"valueCol1\":\"value1\",\"valueCol2\":\"value2\",\"isCol2Delta\":false,\"template\":\"simple\",\"config\":{\"align\":\"center\",\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Title font color\",\"color\":\"\",\"colorIndex\":-1,\"customColor\":true},{\"name\":\"Value font color\",\"color\":\"\",\"colorIndex\":-1,\"customColor\":true},{\"name\":\"Delta Font color\",\"color\":\"\",\"colorIndex\":-1,\"customColor\":true},{\"name\":\"Remark color\",\"color\":\"\",\"colorIndex\":-1,\"customColor\":true}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"valueFormat\":\"00.00\",\"deltaFormat\":\"0.00\",\"title\":\"Chrome\",\"upGreen\":true},\"valueCol\":\"\"}",
-    "parameters": "[{\"name\":\"date\",\"label\":\"Date\",\"option\":{\"type\":\"query-drop-down\",\"dataSourceId\":582,\"query\":\"select `date` from browser_share\",\"multiple\":false},\"defaultValue\":\"2019-06\"},{\"name\":\"month1\",\"label\":\"Month1\",\"option\":{\"type\":\"query-drop-down\",\"dataSourceId\":582,\"query\":\"select `date` from browser_share\",\"multiple\":false},\"defaultValue\":\"2019-07\"}]"
+    "parameters": "[{\"name\":\"date\",\"label\":\"Date\",\"option\":{\"type\":\"query-drop-down\",\"dataSourceId\":614,\"query\":\"select `date` from browser_share\",\"multiple\":false},\"defaultValue\":\"2019-06\"},{\"name\":\"month1\",\"label\":\"Month1\",\"option\":{\"type\":\"query-drop-down\",\"dataSourceId\":614,\"query\":\"select `date` from browser_share\",\"multiple\":false},\"defaultValue\":\"2019-07\"}]",
+    "parameterExts": {
+        "date": {
+            "dsName": "sqlite",
+            "dsType": "sqlite"
+        },
+        "month1": {
+            "dsName": "sqlite",
+            "dsType": "sqlite"
+        }
+    }
 }
