@@ -3,7 +3,7 @@
     "dsName": "demo",
     "name": "accident_by_weather",
     "query": "select count(*) as count, weather.value as weather from accident \njoin weather on accident.Weather_Conditions = weather.id\nwhere weather.id > 0\ngroup by weather\norder by count desc",
-    "type": "pie",
+    "type": "c-pie",
     "projection": "[{\"name\":\"count\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"weather\",\"type\":\"text\",\"format\":\"\"}]",
     "setting": "{\"valueCol\":\"count\",\"categoryCol\":\"weather\",\"title\":{\"text\":\"\",\"subtext\":\"\",\"x\":\"center\"},\"legend\":{\"show\":true,\"orient\":\"vertical\",\"x\":\"right\"},\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Fine no high winds\",\"colorIndex\":0,\"color\":\"#dd163d\"},{\"name\":\"Raining no high winds\",\"colorIndex\":1,\"color\":\"#e95703\"},{\"name\":\"Unknown\",\"colorIndex\":2,\"color\":\"#e4921e\"},{\"name\":\"Other\",\"colorIndex\":3,\"color\":\"#c0b50a\"},{\"name\":\"Raining + high winds\",\"colorIndex\":4,\"color\":\"#85ad39\"},{\"name\":\"Others\",\"color\":\"#c2dd5a\"}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"radius\":[43,75],\"showLabel\":false,\"merge\":{\"enable\":true,\"threshold\":1,\"display\":\"Others\"},\"valueFormat\":\"0,0\",\"sortBy\":\"none\",\"roseType\":false}",
     "parameters": "[]"

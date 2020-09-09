@@ -3,7 +3,7 @@
     "dsName": "demo",
     "name": "accident_geo",
     "query": "select longitude, latitude from accident limit 1000",
-    "type": "baidu-map",
+    "type": "c-baidu-map",
     "projection": "[{\"name\":\"Longitude\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Latitude\",\"type\":\"number\",\"format\":\"\"}]",
     "setting": "{\"lngCol\":\"Longitude\",\"latCol\":\"Latitude\",\"nameCol\":\"\",\"typeCol\":\"\",\"markerTypes\":[{\"name\":\"\",\"size\":\"BMAP_POINT_SIZE_NORMAL\",\"shape\":\"BMAP_POINT_SHAPE_CIRCLE\",\"color\":\"#F44336\"}],\"widgetList\":[{\"name\":\"scale\",\"value\":{\"enable\":false,\"anchor\":\"\"}},{\"name\":\"navigation\",\"value\":{\"enable\":false,\"anchor\":\"\"}},{\"name\":\"maptype\",\"value\":{\"enable\":true,\"anchor\":\"\"}},{\"name\":\"overview\",\"value\":{\"enable\":false,\"anchor\":\"\"}},{\"name\":\"geolocation\",\"value\":{\"enable\":false,\"anchor\":\"\"}}],\"centerType\":\"\",\"center\":\"上海\",\"zoom\":11,\"minZoom\":1,\"maxZoom\":19}",
     "parameters": "[]"

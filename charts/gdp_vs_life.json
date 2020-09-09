@@ -3,7 +3,7 @@
     "dsName": "demo",
     "name": "gdp_vs_life",
     "query": "select * from gdp_life",
-    "type": "scatter",
+    "type": "c-scatter",
     "projection": "[{\"name\":\"gdp\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"life\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"population\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"country\",\"type\":\"text\",\"format\":\"\"},{\"name\":\"year\",\"type\":\"number\",\"format\":\"\"}]",
     "setting": "{\"categoryCol\":\"gdp\",\"valueCols\":[\"life\"],\"groupByCol\":\"year\",\"bubbleSizeCol\":\"population\",\"bubbleLabelCol\":\"country\",\"bubbleSize\":13,\"bubbleLevels\":\"7\",\"groupBy\":true,\"title\":{\"text\":\"\",\"subtext\":\"\",\"x\":\"center\"},\"reverseAxis\":false,\"categoryAxis\":{\"show\":true,\"boundaryGap\":true,\"axisLabel\":{\"interval\":\"auto\",\"rotate\":0},\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true}},\"valueAxis\":{\"show\":true,\"formatLabel\":false,\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true}},\"grid\":{\"left\":80,\"right\":40,\"top\":60,\"bottom\":60},\"legend\":{\"show\":false,\"oritent\":\"horizontal\",\"align\":\"left\",\"orient\":\"horizontal\",\"x\":\"left\"},\"colors\":{\"enable\":true,\"series\":[{\"name\":\"1990\",\"colorIndex\":0,\"color\":\"#3366CC\"},{\"name\":\"2015\",\"colorIndex\":1,\"color\":\"#DC3912\"}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0},\"colorSeries\":0},\"seriesSetting\":[]}",
     "parameters": "[]"

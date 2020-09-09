@@ -3,7 +3,7 @@
     "dsName": "demo",
     "name": "safari_share",
     "query": "select * from browser_share order by `date` desc limit 1",
-    "type": "number",
+    "type": "c-number",
     "projection": "[{\"name\":\"date\",\"type\":\"date\",\"format\":\"\"},{\"name\":\"Chrome\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Safari\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Firefox\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Sumsung Internet\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"UC Browser\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Opera\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Edge\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"IE\",\"type\":\"number\",\"format\":\"\"},{\"name\":\"Other\",\"type\":\"number\",\"format\":\"\"}]",
     "setting": "{\"need2Nums\":false,\"needDivide\":true,\"valueCol\":\"Safari\",\"cellFormat\":\"00.00%\",\"numeratorCol\":\"\",\"denominatorCol\":\"\",\"template\":\"percent\",\"config\":{\"align\":\"left\",\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Value color\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true},{\"name\":\"Title color\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true},{\"name\":\"Progress bar color\",\"colorIndex\":-1,\"color\":\"\",\"customColor\":true}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"title\":\"Safari\"}}",
     "parameters": "[]"
