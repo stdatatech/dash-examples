@@ -6,42 +6,42 @@
             "position": "{\"x\":0,\"y\":12,\"w\":6,\"h\":18,\"i\":\"4rwpag\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_daily",
-            "chartType": "line",
+            "chartType": "c-line",
             "dataSourceType": "sqlite"
         },
         {
             "position": "{\"x\":0,\"y\":30,\"w\":12,\"h\":15,\"i\":\"5awyoj\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_age_sex",
-            "chartType": "bar",
+            "chartType": "c-bar",
             "dataSourceType": "sqlite"
         },
         {
             "position": "{\"x\":6,\"y\":12,\"w\":6,\"h\":18,\"i\":\"w11ehr\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_by_day",
-            "chartType": "bar",
+            "chartType": "c-bar",
             "dataSourceType": "sqlite"
         },
         {
             "position": "{\"x\":8,\"y\":0,\"w\":4,\"h\":12,\"i\":\"cfjnc\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_by_weather",
-            "chartType": "pie",
+            "chartType": "c-pie",
             "dataSourceType": "sqlite"
         },
         {
             "position": "{\"x\":0,\"y\":0,\"w\":4,\"h\":12,\"i\":\"plnk1\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_serverity",
-            "chartType": "pie",
+            "chartType": "c-pie",
             "dataSourceType": "sqlite"
         },
         {
             "position": "{\"x\":4,\"y\":0,\"w\":4,\"h\":12,\"i\":\"ey5f49\"}",
             "setting": "{\"updateInterval\":-1}",
             "chartName": "accident_number",
-            "chartType": "number",
+            "chartType": "c-number",
             "dataSourceType": "sqlite"
         }
     ]
