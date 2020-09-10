@@ -1,0 +1,215 @@
+-- Drop table
+
+-- DROP TABLE public.fixed_broadband;
+
+CREATE TABLE public.fixed_broadband (
+	countries text NOT NULL,
+	"1978" int4 NULL,
+	"1979" int4 NULL,
+	"1980" int4 NULL,
+	"1981" int4 NULL,
+	"1982" int4 NULL,
+	"1983" int4 NULL,
+	"1984" int4 NULL,
+	"1985" int4 NULL,
+	"1986" int4 NULL,
+	"1987" int4 NULL,
+	"1988" int4 NULL,
+	"1989" int4 NULL,
+	"1990" int4 NULL,
+	"1991" int4 NULL,
+	"1992" int4 NULL,
+	"1993" int4 NULL,
+	"1994" int4 NULL,
+	"1995" int4 NULL,
+	"1996" int4 NULL,
+	"1997" int4 NULL,
+	"1998" int4 NULL,
+	"1999" int4 NULL,
+	"2000" int4 NULL,
+	"2001" int4 NULL,
+	"2002" int4 NULL,
+	"2003" int4 NULL,
+	"2004" int4 NULL,
+	"2005" int4 NULL,
+	"2006" int4 NULL,
+	"2007" int4 NULL,
+	"2008" int4 NULL,
+	"2009" int4 NULL,
+	"2010" int4 NULL,
+	"2011" int4 NULL,
+	"2012" int4 NULL,
+	"2013" int4 NULL,
+	"2014" int4 NULL,
+	"2015" int4 NULL,
+	"2016" int4 NULL,
+	"2017" int4 NULL,
+	"2018" int4 NULL,
+	"2019" int4 NULL
+);
+
+
+-- Drop table
+
+-- DROP TABLE public.fixed_telephone;
+
+CREATE TABLE public.fixed_telephone (
+	countries text NOT NULL,
+	"1978" int4 NULL,
+	"1979" int4 NULL,
+	"1980" int4 NULL,
+	"1981" int4 NULL,
+	"1982" int4 NULL,
+	"1983" int4 NULL,
+	"1984" int4 NULL,
+	"1985" int4 NULL,
+	"1986" int4 NULL,
+	"1987" int4 NULL,
+	"1988" int4 NULL,
+	"1989" int4 NULL,
+	"1990" int4 NULL,
+	"1991" int4 NULL,
+	"1992" int4 NULL,
+	"1993" int4 NULL,
+	"1994" int4 NULL,
+	"1995" int4 NULL,
+	"1996" int4 NULL,
+	"1997" int4 NULL,
+	"1998" int4 NULL,
+	"1999" int4 NULL,
+	"2000" int4 NULL,
+	"2001" int4 NULL,
+	"2002" int4 NULL,
+	"2003" int4 NULL,
+	"2004" int4 NULL,
+	"2005" int4 NULL,
+	"2006" int4 NULL,
+	"2007" int4 NULL,
+	"2008" int4 NULL,
+	"2009" int4 NULL,
+	"2010" int4 NULL,
+	"2011" int4 NULL,
+	"2012" int4 NULL,
+	"2013" int4 NULL,
+	"2014" int4 NULL,
+	"2015" int4 NULL,
+	"2016" int4 NULL,
+	"2017" int4 NULL,
+	"2018" int4 NULL,
+	"2019" int4 NULL
+);
+
+
+-- Drop table
+
+-- DROP TABLE public.internet_usage_of_percentage;
+
+CREATE TABLE public.internet_usage_of_percentage (
+	countries text NOT NULL,
+	"1978" int4 NULL,
+	"1979" int4 NULL,
+	"1980" int4 NULL,
+	"1981" int4 NULL,
+	"1982" int4 NULL,
+	"1983" int4 NULL,
+	"1984" int4 NULL,
+	"1985" int4 NULL,
+	"1986" int4 NULL,
+	"1987" int4 NULL,
+	"1988" int4 NULL,
+	"1989" int4 NULL,
+	"1990" int4 NULL,
+	"1991" int4 NULL,
+	"1992" int4 NULL,
+	"1993" int4 NULL,
+	"1994" int4 NULL,
+	"1995" int4 NULL,
+	"1996" int4 NULL,
+	"1997" int4 NULL,
+	"1998" int4 NULL,
+	"1999" int4 NULL,
+	"2000" int4 NULL,
+	"2001" int4 NULL,
+	"2002" int4 NULL,
+	"2003" int4 NULL,
+	"2004" int4 NULL,
+	"2005" int4 NULL,
+	"2006" int4 NULL,
+	"2007" int4 NULL,
+	"2008" int4 NULL,
+	"2009" int4 NULL,
+	"2010" int4 NULL,
+	"2011" int4 NULL,
+	"2012" int4 NULL,
+	"2013" int4 NULL,
+	"2014" int4 NULL,
+	"2015" int4 NULL,
+	"2016" int4 NULL,
+	"2017" int4 NULL,
+	"2018" int4 NULL,
+	"2019" int4 NULL
+);
+
+-- Drop table
+
+-- DROP TABLE public.itu_statisic;
+
+CREATE TABLE public.itu_statisic (
+	country text NOT NULL,
+	"year" int4 NOT NULL,
+	fixed_telephone int4 NULL,
+	fixed_broadband int4 NULL,
+	mobile_celluar int4 NULL,
+	internet_usage_of_percentage int4 NULL
+);
+
+
+-- Drop table
+
+-- DROP TABLE public.mobile_celluar;
+
+CREATE TABLE public.mobile_celluar (
+	countries text NOT NULL,
+	"1978" int4 NULL,
+	"1979" int4 NULL,
+	"1980" int4 NULL,
+	"1981" int4 NULL,
+	"1982" int4 NULL,
+	"1983" int4 NULL,
+	"1984" int4 NULL,
+	"1985" int4 NULL,
+	"1986" int4 NULL,
+	"1987" int4 NULL,
+	"1988" int4 NULL,
+	"1989" int4 NULL,
+	"1990" int4 NULL,
+	"1991" int4 NULL,
+	"1992" int4 NULL,
+	"1993" int4 NULL,
+	"1994" int4 NULL,
+	"1995" int4 NULL,
+	"1996" int4 NULL,
+	"1997" int4 NULL,
+	"1998" int4 NULL,
+	"1999" int4 NULL,
+	"2000" int4 NULL,
+	"2001" int4 NULL,
+	"2002" int4 NULL,
+	"2003" int4 NULL,
+	"2004" int4 NULL,
+	"2005" int4 NULL,
+	"2006" int4 NULL,
+	"2007" int4 NULL,
+	"2008" int4 NULL,
+	"2009" int4 NULL,
+	"2010" int4 NULL,
+	"2011" int4 NULL,
+	"2012" int4 NULL,
+	"2013" int4 NULL,
+	"2014" int4 NULL,
+	"2015" int4 NULL,
+	"2016" int4 NULL,
+	"2017" int4 NULL,
+	"2018" int4 NULL,
+	"2019" int4 NULL
+);
