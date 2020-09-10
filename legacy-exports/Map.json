@@ -1,1 +1,13 @@
-{"config":null,"widgets":[{"setting":"{\"updateInterval\":5,\"roundRobinParam\":\"WeekDay\"}","position":"{\"x\":0,\"y\":0,\"w\":12,\"h\":50,\"i\":\"pfnc16\"}","chartName":"UK_Accident","chartType":"google-map","dataSourceType":"sqlite"}],"name":"Map"}
+{
+    "config": null,
+    "widgets": [
+        {
+            "setting": "{\"updateInterval\":5,\"roundRobinParam\":\"WeekDay\"}",
+            "position": "{\"x\":0,\"y\":0,\"w\":12,\"h\":50,\"i\":\"pfnc16\"}",
+            "chartName": "UK_Accident",
+            "chartType": "c-google-map",
+            "dataSourceType": "sqlite"
+        }
+    ],
+    "name": "Map"
+}

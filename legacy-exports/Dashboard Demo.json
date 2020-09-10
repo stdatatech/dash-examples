@@ -1,1 +1,41 @@
-{"config":"{\"elevation\":3,\"showLoading\":false,\"showWidgetName\":true,\"hidePadding\":true,\"useCustomBorderColor\":true,\"borderColor\":\"#6993DA\",\"transparency\":76,\"useCustombackgroundImage\":false,\"backgroundImage\":\"\"}","widgets":[{"setting":"{\"updateInterval\":-1}","position":"{\"x\":6,\"y\":0,\"w\":6,\"h\":37,\"i\":\"lrmi1f\"}","chartName":"Mobile Customize","chartType":"scatter","dataSourceType":"pg"},{"setting":"{\"updateInterval\":-1}","position":"{\"x\":0,\"y\":37,\"w\":6,\"h\":18,\"i\":\"u9lbs\"}","chartName":"Mobile","chartType":"bar","dataSourceType":"pg"},{"setting":"{\"updateInterval\":-1}","position":"{\"x\":6,\"y\":37,\"w\":6,\"h\":18,\"i\":\"e6yjde\"}","chartName":"Sweden Telecommunication","chartType":"line","dataSourceType":"pg"},{"setting":"{\"updateInterval\":-1,\"roundRobinParam\":\"Year\"}","position":"{\"x\":0,\"y\":55,\"w\":12,\"h\":39,\"i\":\"6dg6lx7\"}","chartName":"WorldPopulation","chartType":"geomap","dataSourceType":"pg"},{"setting":"{\"updateInterval\":5,\"roundRobinParam\":\"year\"}","position":"{\"x\":0,\"y\":0,\"w\":6,\"h\":37,\"i\":\"9ufq54\"}","chartName":"Telecommunication Statistic","chartType":"customize","dataSourceType":"pg"}],"name":"Dashboard Demo"}
+{
+    "config": "{\"elevation\":3,\"showLoading\":false,\"showWidgetName\":true,\"hidePadding\":true,\"useCustomBorderColor\":true,\"borderColor\":\"#6993DA\",\"transparency\":76,\"useCustombackgroundImage\":false,\"backgroundImage\":\"\"}",
+    "widgets": [
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"x\":6,\"y\":0,\"w\":6,\"h\":37,\"i\":\"lrmi1f\"}",
+            "chartName": "Mobile Customize",
+            "chartType": "c-scatter",
+            "dataSourceType": "pg"
+        },
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"x\":0,\"y\":37,\"w\":6,\"h\":18,\"i\":\"u9lbs\"}",
+            "chartName": "Mobile",
+            "chartType": "c-bar",
+            "dataSourceType": "pg"
+        },
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"x\":6,\"y\":37,\"w\":6,\"h\":18,\"i\":\"e6yjde\"}",
+            "chartName": "Sweden Telecommunication",
+            "chartType": "c-line",
+            "dataSourceType": "pg"
+        },
+        {
+            "setting": "{\"updateInterval\":-1,\"roundRobinParam\":\"Year\"}",
+            "position": "{\"x\":0,\"y\":55,\"w\":12,\"h\":39,\"i\":\"6dg6lx7\"}",
+            "chartName": "WorldPopulation",
+            "chartType": "c-geomap",
+            "dataSourceType": "pg"
+        },
+        {
+            "setting": "{\"updateInterval\":5,\"roundRobinParam\":\"year\"}",
+            "position": "{\"x\":0,\"y\":0,\"w\":6,\"h\":37,\"i\":\"9ufq54\"}",
+            "chartName": "Telecommunication Statistic",
+            "chartType": "c-customize",
+            "dataSourceType": "pg"
+        }
+    ],
+    "name": "Dashboard Demo"
+}
