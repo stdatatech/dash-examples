@@ -1,5 +1,5 @@
 {
-    "parameters": "[{\"label\":\"WeekDay\",\"option\":{\"type\":\"drop-down\",\"multiple\":false,\"values\":\"1,2,3,4,5,6,7\"},\"defaultValue\":\"1\",\"name\":\"WeekDay\"}]",
+    "parameters": "[{\"label\":\"WeekDay\",\"option\":{\"type\":\"p-drop-down-box\",\"values\":\"1,2,3,4,5,6,7\"},\"defaultValue\":\"1\",\"name\":\"WeekDay\"}]",
     "setting": "{\"lngCol\":\"Longitude\",\"latCol\":\"Latitude\",\"typeCol\":\"Accident_Severity\",\"zoom\":11,\"minZoom\":1,\"maxZoom\":19,\"markerTypes\":[{\"name\":1,\"size\":100,\"shape\":\"circle\",\"color\":\"#000000\"},{\"name\":2,\"size\":20,\"shape\":\"circle\",\"color\":\"#FF6F00\"}],\"widgetList\":[{\"name\":\"scale\",\"value\":{\"enable\":true,\"position\":\"bottomleft\"}},{\"name\":\"mapType\",\"value\":{\"enable\":true,\"position\":\"topright\"}}]}",
     "type": "c-google-map",
     "dsName": "demo",
