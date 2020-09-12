@@ -3,56 +3,56 @@
     "widgets": [
         {
             "setting": "{\"updateInterval\":-1,\"hidePadding\":true}",
-            "position": "{\"i\":\"3htw0t\",\"w\":2,\"h\":7,\"x\":0,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"3htw0t\",\"w\":2,\"h\":7,\"x\":0,\"y\":0}",
             "chartName": "Opera_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"cb2otg\",\"w\":2,\"h\":7,\"x\":2,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"cb2otg\",\"w\":2,\"h\":7,\"x\":2,\"y\":0}",
             "chartName": "firefox_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"ku0aq\",\"w\":2,\"h\":7,\"x\":4,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"ku0aq\",\"w\":2,\"h\":7,\"x\":4,\"y\":0}",
             "chartName": "firefox_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"fvq5xr\",\"w\":2,\"h\":7,\"x\":8,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"fvq5xr\",\"w\":2,\"h\":7,\"x\":8,\"y\":0}",
             "chartName": "chrome_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"9wf069\",\"w\":2,\"h\":7,\"x\":10,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"9wf069\",\"w\":2,\"h\":7,\"x\":10,\"y\":0}",
             "chartName": "sumsung_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"32wpkf\",\"w\":2,\"h\":7,\"x\":6,\"y\":0,\"moved\":false}",
+            "position": "{\"i\":\"32wpkf\",\"w\":2,\"h\":7,\"x\":6,\"y\":0}",
             "chartName": "uc_share",
             "chartType": "c-number",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":5,\"roundRobinParam\":\"date\"}",
-            "position": "{\"i\":\"d5jder\",\"w\":6,\"h\":18,\"x\":0,\"y\":7,\"moved\":false}",
+            "position": "{\"i\":\"d5jder\",\"w\":6,\"h\":18,\"x\":0,\"y\":7}",
             "chartName": "browser_by_month",
             "chartType": "c-bar",
             "dataSourceType": "sqlite"
         },
         {
             "setting": "{\"updateInterval\":-1}",
-            "position": "{\"i\":\"1u2qbm\",\"w\":6,\"h\":18,\"x\":6,\"y\":7,\"moved\":false}",
+            "position": "{\"i\":\"1u2qbm\",\"w\":6,\"h\":18,\"x\":6,\"y\":7}",
             "chartName": "browser",
             "chartType": "c-bar",
             "dataSourceType": "sqlite"
