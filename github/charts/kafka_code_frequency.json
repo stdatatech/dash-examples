@@ -1,0 +1,11 @@
+{
+    "type": "c-bar",
+    "setting": "{\"categoryCol\":\"Week\",\"valueCols\":[\"Deletion\",\"Add\"],\"groupByCol\":\"\",\"groupBy\":false,\"series\":{\"stack\":null,\"smooth\":false,\"areaStyle\":null},\"title\":{\"text\":\"\",\"subtext\":\"\",\"x\":\"center\"},\"reverseAxis\":false,\"categoryAxis\":{\"show\":true,\"type\":\"category\",\"boundaryGap\":true,\"axisLabel\":{\"interval\":\"auto\",\"rotate\":0},\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true},\"formatLabel\":true,\"format\":\"MM/DD-YY\"},\"valueAxis\":{\"show\":true,\"type\":\"value\",\"formatLabel\":true,\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true},\"format\":\"\"},\"grid\":{\"left\":80,\"right\":40,\"top\":60,\"bottom\":60},\"legend\":{\"show\":false,\"oritent\":\"horizontal\",\"align\":\"left\",\"orient\":\"horizontal\",\"x\":\"left\"},\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Deletion\",\"colorIndex\":0,\"color\":\"#3366CC\"},{\"name\":\"Add\",\"colorIndex\":1,\"color\":\"#DC3912\"}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"seriesSetting\":[{\"name\":\"Deletion\",\"label\":\"Deletion\",\"type\":\"bar\",\"style\":\"solid\",\"symbolType\":\"circle\",\"symbolSize\":8},{\"name\":\"Add\",\"label\":\"Add\",\"type\":\"bar\",\"style\":\"solid\",\"symbolType\":\"circle\",\"symbolSize\":8}],\"enableZoom\":true}",
+    "parameters": "[]",
+    "parameterExts": {},
+    "projection": "[{\"name\":\"Week\",\"index\":0,\"type\":\"date\",\"format\":\"X\"},{\"name\":\"Add\",\"index\":1,\"type\":\"number\",\"format\":\"\"},{\"name\":\"Deletion\",\"index\":2,\"type\":\"number\",\"format\":\"\"}]",
+    "dsName": "github",
+    "dsType": "rest-api",
+    "query": "{\n  \"url\": \"repos/apache/kafka/stats/code_frequency\",\n  \"columns\": [\n    {\n        \"name\": \"Week\",\n        \"jsonPath\": \"$..[*][0]\"\n    },\n    {\n        \"name\": \"Add\",\n        \"jsonPath\": \"$..[*][1]\"\n    },\n    {\n        \"name\": \"Deletion\",\n        \"jsonPath\": \"$..[*][2]\"\n    }\n  ]     \n}",
+    "name": "kafka_code_frequency"
+}

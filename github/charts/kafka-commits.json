@@ -1,0 +1,11 @@
+{
+    "type": "c-bar",
+    "setting": "{\"categoryCol\":\"Week\",\"valueCols\":[\"Total\"],\"groupByCol\":\"\",\"groupBy\":false,\"series\":{\"stack\":null,\"smooth\":false,\"areaStyle\":null},\"title\":{\"text\":\"\",\"subtext\":\"\",\"x\":\"center\"},\"reverseAxis\":false,\"categoryAxis\":{\"show\":true,\"type\":\"category\",\"boundaryGap\":true,\"axisLabel\":{\"interval\":\"auto\",\"rotate\":0},\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true},\"formatLabel\":true,\"format\":\"MM/DD-YY\"},\"valueAxis\":{\"show\":true,\"type\":\"value\",\"formatLabel\":false,\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true}},\"grid\":{\"left\":80,\"right\":40,\"top\":60,\"bottom\":60},\"legend\":{\"show\":false,\"oritent\":\"horizontal\",\"align\":\"left\"},\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Total\",\"colorIndex\":0,\"color\":\"#3366CC\"}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"seriesSetting\":[{\"name\":\"Total\",\"label\":\"Total\",\"type\":\"bar\",\"style\":\"solid\",\"symbolType\":\"circle\",\"symbolSize\":8}]}",
+    "parameters": "[]",
+    "parameterExts": {},
+    "projection": "[{\"name\":\"Week\",\"index\":0,\"type\":\"date\",\"format\":\"X\"},{\"name\":\"Total\",\"index\":1,\"type\":\"number\",\"format\":\"\"}]",
+    "dsName": "github",
+    "dsType": "rest-api",
+    "query": "{\n    \"url\": \"/repos/apache/kafka/stats/commit_activity\",\n    \"columns\": [\n        {\n            \"jsonPath\": \"$..week\",\n            \"name\": \"Week\"\n        },\n        {\n            \"jsonPath\": \"$..total\",\n            \"name\": \"Total\"\n        }\n    ]\n}",
+    "name": "kafka-commits"
+}
