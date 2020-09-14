@@ -1,0 +1,27 @@
+{
+    "config": null,
+    "widgets": [
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"i\":\"lqabjs\",\"w\":6,\"h\":18,\"x\":0,\"y\":0}",
+            "chartName": "kafka-commits",
+            "chartType": "c-bar",
+            "dataSourceType": "rest-api"
+        },
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"i\":\"ods0ir\",\"w\":6,\"h\":18,\"x\":6,\"y\":0}",
+            "chartName": "kafka_code_frequency",
+            "chartType": "c-bar",
+            "dataSourceType": "rest-api"
+        },
+        {
+            "setting": "{\"updateInterval\":-1}",
+            "position": "{\"i\":\"ezfnfn\",\"w\":12,\"h\":15,\"x\":0,\"y\":18}",
+            "chartName": "kafka_contributors",
+            "chartType": "c-bar",
+            "dataSourceType": "rest-api"
+        }
+    ],
+    "name": "gitthub"
+}

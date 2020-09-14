@@ -1,0 +1,11 @@
+{
+    "type": "c-bar",
+    "setting": "{\"categoryCol\":\"Author\",\"valueCols\":[\"Commits\"],\"groupByCol\":\"\",\"groupBy\":false,\"series\":{\"stack\":null,\"smooth\":false,\"areaStyle\":null},\"title\":{\"text\":\"\",\"subtext\":\"\",\"x\":\"center\"},\"reverseAxis\":false,\"categoryAxis\":{\"show\":true,\"type\":\"category\",\"boundaryGap\":true,\"axisLabel\":{\"interval\":\"auto\",\"rotate\":0},\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true}},\"valueAxis\":{\"show\":true,\"type\":\"value\",\"formatLabel\":false,\"splitLine\":{\"show\":false,\"lineStyle\":{\"type\":\"dashed\"}},\"axisTick\":{\"show\":true}},\"grid\":{\"left\":80,\"right\":40,\"top\":60,\"bottom\":60},\"legend\":{\"show\":false,\"oritent\":\"horizontal\",\"align\":\"left\"},\"colors\":{\"enable\":true,\"series\":[{\"name\":\"Commits\",\"colorIndex\":0,\"color\":\"#3366CC\"}],\"backgroundColor\":{\"color\":\"\",\"colorIndex\":0}},\"seriesSetting\":[{\"name\":\"Commits\",\"label\":\"Commits\",\"type\":\"bar\",\"style\":\"solid\",\"symbolType\":\"circle\",\"symbolSize\":8}]}",
+    "parameters": "[]",
+    "parameterExts": {},
+    "projection": "[{\"name\":\"Author\",\"index\":0,\"type\":\"text\",\"format\":\"\"},{\"name\":\"Commits\",\"index\":1,\"type\":\"number\",\"format\":\"\"}]",
+    "dsName": "github",
+    "dsType": "rest-api",
+    "query": "{\n    \"url\": \"repos/apache/kafka/stats/contributors\",\n    \"columns\": [\n        {\n            \"name\": \"Author\",\n            \"jsonPath\": \"$[*].author.login\"\n        },\n        {\n            \"name\": \"Commits\",\n            \"jsonPath\": \"$[*].total\"\n        }\n    ]    \n}",
+    "name": "kafka_contributors"
+}
